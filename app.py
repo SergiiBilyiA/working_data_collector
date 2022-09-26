@@ -1,4 +1,4 @@
-from flask import Flask , render_template, url_for, request
+from flask import Flask, render_template, request, url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -15,7 +15,6 @@ class Pictures(db.Model):
 
     def __repr__(self):
         return '<Pictures %r>' % self.id
-
 
 
 @app.route('/', methods=['POST', 'GET'])
