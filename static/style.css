@@ -1,0 +1,106 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+header {
+    padding: 60px 0;
+    text-align: center;
+    color: #EDECEC;
+}
+
+.hello-text {
+    color: #66FCF1;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.thanks-text {
+    margin: 35px 0 15px 0;
+}
+
+hr {
+    border: none;
+    width: 675px;
+    margin: 0 auto;
+    background-color: #45A29E;
+    color: #45A29E;
+    height: 2px;
+}
+
+.instruction-text {
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.canvas {
+    border: 6px solid #45A29E;
+}
+
+.digits-radio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    height: 417px;
+}
+
+label {
+    display: flex;
+}
+
+input {
+    transform: scale(1.7);
+    opacity: .8;
+    cursor: pointer;
+}
+
+span {
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+.button-container {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #1F2833;
+    border: 3px solid #66FCF1;
+    width: 150px;
+    height: 50px;
+    color: #C5C6C7;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #EDECEC;
+    font-size: 22px;
+}
+
+.clear-button {
+    margin-left: 90px;
+}
