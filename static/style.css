@@ -104,3 +104,11 @@ button:hover {
 .clear-button {
     margin-left: 90px;
 }
+
+.label {
+    font-size: 250px;
+}
+
+.id {
+    font-size: 80px
+}
