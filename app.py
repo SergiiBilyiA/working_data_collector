@@ -30,6 +30,11 @@ def admin():
     return render_template('dataclip.html')
 
 
+@app.route('/digit_recognition', methods=['POST', 'GET'])
+def digit_recognition():
+    return render_template('digit_recognition.html')
+
+
 @app.route('/pictures')
 def pictures():
     pictures = Pictures.query.order_by(Pictures.id).all()
